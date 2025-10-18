@@ -14,18 +14,24 @@
       background: linear-gradient(to bottom, #e4b15c, #d88942);
       color: #222;
       text-align: center;
-      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
+
     h1 {
       font-size: 28px;
-      margin-top: 20px;
+      margin: 20px 0;
       color: #111;
     }
+
     p {
       max-width: 600px;
-      margin: 10px auto 20px;
+      margin: 10px auto 30px;
       line-height: 1.6;
     }
+
     .button {
       display: inline-block;
       background: #ff4e00;
@@ -35,25 +41,21 @@
       text-decoration: none;
       font-size: 16px;
       transition: 0.2s;
+      margin: 20px 0;
     }
+
     .button:hover {
       background: #ff7b00;
       transform: scale(1.05);
     }
-    img {
-      width: 400px;
-      max-width: 90%;
-      border-radius: 12px;
-      margin: 20px 0;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-    }
+
     footer {
-      position: absolute;
-      bottom: 10px;
-      width: 100%;
+      margin-top: auto;
+      padding: 10px;
       font-size: 12px;
       color: #111;
     }
+
     .mensaje {
       font-size: 10px;
       color: #333;
@@ -68,14 +70,12 @@
   <h1>🚚 Truck Mania</h1>
   <p>Conduce tu monster truck a través de dunas infinitas, destruye obstáculos y demuestra quién manda en el desierto pixelado.</p>
 
-
-  <br>
-  <a class="button" href="https://www.mediafire.com/file/ezeribnljhs564s/Pixel_Truck.zip/file>⬇️ Descargar Juego</a>
+  <a class="button" href="https://www.mediafire.com/file/ezeribnljhs564s/Pixel_Truck.zip/file" download>⬇️ Descargar Juego</a>
 
   <footer>
     © 2025 TuNombreDev — Pixel Art & Code
     <div class="mensaje">
-      Hola, soy un desarrollador pequeño.  
+      Hola, soy un desarrollador pequeño.<br>
       Mi objetivo es que los alumnos de Santelm puedan jugar en su tiempo "libre".
     </div>
   </footer>
